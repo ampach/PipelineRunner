@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineBatchRunner", "PipelineBatchRunner\PipelineBatchRunner.csproj", "{44F2225E-53CA-4DF1-B428-8563D9E9CC40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44F2225E-53CA-4DF1-B428-8563D9E9CC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F2225E-53CA-4DF1-B428-8563D9E9CC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F2225E-53CA-4DF1-B428-8563D9E9CC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F2225E-53CA-4DF1-B428-8563D9E9CC40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67677AB7-E1E6-4679-B29E-1218271FAAAB}
+	EndGlobalSection
+EndGlobal
