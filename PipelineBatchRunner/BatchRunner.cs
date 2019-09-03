@@ -17,9 +17,9 @@ namespace PipelineBatchRunner
         private bool _isRunnerSet;
         private static IPipelineBatchRunner<Job> _runner;
 
-        public void RunVirtualBatch(string formId, IPlugin[] plugins)
+        public void RunVirtualBatch(List<ID> pipelinesToRun, IPlugin[] plugins)
         {
-            var virtualBatch = VirtualPipelineBatchBuilder.GetVirtualPipelineBatch(new List<ID>(), new BatchSettings());
+            var virtualBatch = VirtualPipelineBatchBuilder.GetVirtualPipelineBatch(pipelinesToRun, new BatchSettings());
             if (virtualBatch == null)
                 return;
 
